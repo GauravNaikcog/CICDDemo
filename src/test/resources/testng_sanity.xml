@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sanity" parallel="methods" data-provider-thread-count="1" >
+	<test name="Sanity test for Electrolux and AEG UAT env">
+		<classes>
+			<class name="testscripts.Scenario01_CICD">
+				<methods>
+					<include name="Content_OrderSummary_Paymentpage_checkout_ELX_UAT"></include>
+					<!-- <include name="Orderworkflow_Guestuser_Single_product_1Quantity_AllServices_withoutpromotion_voucher_AEG_UAT"></include> -->
+				</methods>
+				</class>
+		 		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

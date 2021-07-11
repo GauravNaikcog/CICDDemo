@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Test Suite" parallel="methods" data-provider-thread-count="2">
+	<test name="Regression test for first set of four scenarios in ELX and AEG application in UAT environment">
+		<classes>
+			<class name="testscripts.Scenario01_CICD">
+				<methods>
+					<include name="buy_X_Get_Y_Free_CICD_TC01_SWE_ELX"></include>
+				    <include name="buy_X_Get_Y_Free_CICD_TC01_SWE_ELX_iPhone"></include>
+				    <include name="buy_X_Get_Y_Free_CICD_TC01_POL_ELX_D2"></include>
+				    
+				    
+				    <include name="buy_X_Get_Y_Free_CICD_TC01_POL_ELX_D2"></include>
+				    <include name="buy_X_Get_Y_Free_CICD_TC01_POL_ELX_D2_iPhone"></include>
+				</methods>
+		</class>
+	</classes> 
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
